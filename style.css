@@ -1,0 +1,181 @@
+/*
+Theme Name: Joy Theme
+Theme URI: http://wordpress.org/themes/JoyTheme
+Author: Hanny Turjeman
+Author URI: http://wordpress.org/
+Description: The Joy theme is amazing 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: JoyTheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* html, body {
+    height: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/cute-paw-seamless-pattern-cat-feet-steps-pet-design-texture-wallpapers-fabric-wrap-web-page-backgrounds-vector-illustration-150810264.jpg");
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url("https://thumbs.dreamstime.com/b/cute-paw-seamless-pattern-cat-feet-steps-pet-design-texture-wallpapers-fabric-wrap-web-page-backgrounds-vector-illustration-150810264.jpg"); */
+    /* background-size: cover; */
+    /* height: 100%;
+
+}
+h1 {
+    color: white;
+    background-color: black; 
+    font-weight: bold; 
+    font-size: 80px;
+    border-radius: 6px;
+} */ 
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+  }
+  
+  .container {
+    background: white;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 10px; */
+    
+  }
+  .container header {
+    height: auto;
+    /* text-align: center; */
+    background: white;
+    font-family: 'Satisfy', cursive;
+    /* border: 3px solid white; */
+  }
+
+  .container header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+
+  }
+  .container header p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+    margin: 0 10px;
+
+  }
+  .container section {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 500px;
+  }
+  @media screen and (max-width: 400px) {
+    .container section {
+      grid-template-columns: 1fr;
+    }
+  }
+  .container section main {
+    background: rgb(145, 206, 247);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5u3T0n-_eSaZiFCfPZfY80_v_nxQ6H1iUnQ&usqp=CAU');
+    /* border: 3px solid black; */
+    /* padding : 20px 60px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+  /* .container section main h1 {
+    margin: 0;
+    font-size: 40px;
+  } */
+  .container section main p {
+    margin: 0;
+  }
+
+  .container section p.phone, .container section p.mail,.container section a{
+      color: white;
+    font-size: 15px;
+    display: inline ;
+  }
+
+  .container section p.phone, .container section p.mail, .container section i, .container section a
+   {
+    color: white;
+    margin: 5px 10px;
+  }
+
+
+
+
+  .container section img {
+    width: 200px;
+    height: auto;
+    /* border-radius: 100%; */
+    padding: 0;
+    margin: 0 10px 0 0;
+  }
+  .container nav {
+    background: rgb(76, 79, 221);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8X743bLdZr6yKVc5bLePyY1kfm6hUpJLzMg&usqp=CAU");
+    line-height: 1px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .container nav span{
+    /* background: rgb(76, 79, 221); */
+  }
+
+  .container nav span h2{
+    font-family: 'Satisfy', cursive;
+    margin: 30px 0 0 10px;
+  }
+
+  .container nav span p{
+    white-space:normal;
+    margin: 20px 0 0 10px;
+    line-height: 1.4;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+
+  .container nav div{
+    /* background: rgb(48, 50, 136); */
+  }
+
+
+  .container footer {
+    background: white;
+    min-height: 40px;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .container footer h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+
+  }
